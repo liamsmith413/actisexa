@@ -25,7 +25,7 @@ const BottomNavigation = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`flex flex-col items-center py-3 px-4 ${
+              className={`flex flex-col items-center py-3 px-2 ${
                 isActive ? 'text-crypto-accent' : 'text-muted-foreground'
               }`}
             >
