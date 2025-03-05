@@ -17,8 +17,7 @@ const HeroSection = () => {
   const images = [
     "/uploads/1.jpg",
     "/uploads/2.jpg",
-    "/uploads/3.jpg",
-    "/uploads/4.jpg",
+    "/uploads/3.jpg"
   ];
 
 
