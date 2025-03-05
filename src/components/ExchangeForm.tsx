@@ -237,7 +237,7 @@ const ExchangeForm = () => {
                     variant={buyOrSell === 'buy' ? 'default' : 'outline'}
                     className={`font-semibold ${buyOrSell === 'buy' ? 'bg-crypto-positive hover:bg-crypto-positive/90' : ''}`}
                   >
-                    Logn
+                    Long
                   </Button>
                   <Button
                     variant={buyOrSell === 'buy' ? 'default' : 'outline'}
