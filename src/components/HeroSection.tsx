@@ -15,10 +15,10 @@ const HeroSection = () => {
   };
 
   const images = [
-    "/public/uploads/1.jpg",
-    "/public/uploads/2.jpg",
-    "/public/uploads/3.jpg",
-    "/public/uploads/4.jpg",
+    "/uploads/1.jpg",
+    "/uploads/2.jpg",
+    "/uploads/3.jpg",
+    "/uploads/4.jpg",
   ];
 
 

@@ -138,7 +138,7 @@ export default {
 				'glow-purple': '0 0 15px rgba(155, 135, 245, 0.5)',
 			},
 			backgroundImage: {
-				'hero-pattern': "url('/public/uploads/f6bf64d4-674e-4606-98a7-100e989ad4e5.png')",
+				'hero-pattern': "url('/uploads/f6bf64d4-674e-4606-98a7-100e989ad4e5.png')",
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 			}
 		}

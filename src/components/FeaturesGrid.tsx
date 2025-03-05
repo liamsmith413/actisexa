@@ -6,49 +6,49 @@ import { Link } from 'react-router-dom';
 const features = [
   {
     id: 'recharge',
-    icon: <img src="/public/uploads/recharge.png" alt="png" className='image' />,
+    icon: <img src="/uploads/recharge.png" alt="png" className='image' />,
     title: 'Recharge',
     path: '/recharge'
   },
   {
     id: 'invite',
-    icon: <img src="/public/uploads/invite.png" alt="png" className='image' />,
+    icon: <img src="/uploads/invite.png" alt="png" className='image' />,
     title: 'Invite',
     path: '/invite'
   },
   {
     id: 'online',
-    icon: <img src="/public/uploads/online.png" alt="png" className='image' />,
+    icon: <img src="/uploads/online.png" alt="png" className='image' />,
     title: 'Online',
     path: '/online'
   },
   {
     id: 'mining',
-    icon: <img src="/public/uploads/mining_pool.png" alt="png" className='image' />,
+    icon: <img src="/uploads/mining_pool.png" alt="png" className='image' />,
     title: 'Mining Pool',
     path: '/mining'
   },
   {
     id: 'quantify',
-    icon: <img src="/public/uploads/quantify.png" alt="png" className='image' />,
+    icon: <img src="/uploads/quantify.png" alt="png" className='image' />,
     title: 'Quantify',
     path: '/quantify'
   },
   {
     id: 'arbitrage',
-    icon: <img src="/public/uploads/arbitrage.png" alt="png" className='image' />,
+    icon: <img src="/uploads/arbitrage.png" alt="png" className='image' />,
     title: 'Arbitrage',
     path: '/arbitrage'
   },
   {
     id: 'loan',
-    icon: <img src="/public/uploads/loan.png" alt="png" className='image' />,
+    icon: <img src="/uploads/loan.png" alt="png" className='image' />,
     title: 'Loan',
     path: '/loan'
   },
   {
     id: 'debt',
-    icon: <img src="/public/uploads/debt.png" alt="png" className='image' />,
+    icon: <img src="/uploads/debt.png" alt="png" className='image' />,
     title: 'Debt',
     path: '/debt'
   }
