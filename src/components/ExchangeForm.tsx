@@ -50,57 +50,6 @@ const ExchangeForm = () => {
           <CoinKind OnSide={OnSide} />
           <MarketSecond />
 
-<<<<<<< HEAD
-=======
-                <div className="space-y-2">
-                  <div className="flex justify-between text-sm">
-                    <label className="text-muted-foreground">Amount</label>
-                    <div className="flex items-center">
-                      <span className="text-muted-foreground">Available:</span>
-                      <span className="text-foreground ml-1">23,245.43 USDT</span>
-                    </div>
-                  </div>
-                  <div className="flex items-center border border-input rounded-md overflow-hidden">
-                    <input
-                      type="text"
-                      placeholder="0.00"
-                      className="flex-1 bg-transparent border-0 focus:ring-0 py-3 px-4"
-                    />
-                  </div>
-                </div>
-
-                <div className="py-2">
-                  <div className="grid grid-cols-4 gap-2">
-                    <button className="text-xs bg-muted rounded py-1">25%</button>
-                    <button className="text-xs bg-muted rounded py-1">50%</button>
-                    <button className="text-xs bg-muted rounded py-1">75%</button>
-                    <button className="text-xs bg-muted rounded py-1">100%</button>
-                  </div>
-                </div>
-
-                <div className="flex items-center justify-between text-sm text-muted-foreground py-2 border-t border-border">
-                  <span>Total</span>
-                  <span>0.00 USDT</span>
-                </div>
-
-                <div className="grid grid-cols-2 gap-2 mb-4">
-                  <Button
-                    variant={buyOrSell === 'buy' ? 'default' : 'outline'}
-                    className={`font-semibold ${buyOrSell === 'buy' ? 'bg-crypto-positive hover:bg-crypto-positive/90' : ''}`}
-                  >
-                    Long
-                  </Button>
-                  <Button
-                    variant={buyOrSell === 'buy' ? 'default' : 'outline'}
-                    className={`font-semibold ${buyOrSell === 'buy' ? 'bg-crypto-positive hover:bg-crypto-positive/90' : ''}`}
-                  >
-                    Short
-                  </Button>
-                </div>
-              </div>
-            </>
-          )}
->>>>>>> 0e790bab1f02f037beaee6508beb3c60b488f580
         </TabsContent>
       </Tabs>
     </div >
