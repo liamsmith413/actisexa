@@ -17,7 +17,11 @@ const HeroSection = () => {
   const images = [
     "/uploads/1.jpg",
     "/uploads/2.jpg",
+<<<<<<< HEAD
     "/uploads/3.jpg",
+=======
+    "/uploads/3.jpg"
+>>>>>>> 0e790bab1f02f037beaee6508beb3c60b488f580
   ];
 
 
