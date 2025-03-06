@@ -57,7 +57,7 @@ const WithdrawalForm = ({ className, onBack }: WithdrawalFormProps) => {
     return (
         <div className="min-h-screen bg-background text-foreground">
             <NavBar />
-            <div className={cn("max-w-md mx-auto bg-white", className)}>
+            <div className={cn("max-w-md mx-auto bg-white px-4", className)}>
                 {/* Header with back button */}
                 <div className="flex items-center mb-4">
                     <button

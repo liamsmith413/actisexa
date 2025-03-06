@@ -59,9 +59,9 @@ const Wallet = () => {
                 <div className="text-xs text-white/70 mt-1">≈$0</div>
               </div>
               <Button className="bg-white/20 hover:bg-white/30 text-white rounded-md text-sm">
-                <svg xmlns="http://www.w3.org/2000/svg" className="h-2 w-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <Link to="/History"><svg xmlns="http://www.w3.org/2000/svg" className="h-2 w-2" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M3 6h18M3 12h18M3 18h18" />
-                </svg>
+                </svg></Link>
               </Button>
             </div>
           </motion.div>
@@ -116,7 +116,7 @@ const Wallet = () => {
                   <path d="M6 9v12M18 6V3" />
                   <path d="m9 6 6 6M6 9l12-3" />
                 </svg>
-                <Link to="/Exchange" className="text-xs">Exchange</Link>
+                <Link to="/Exchanges" className="text-xs">Exchange</Link>
               </Button>
             </div>
           </motion.div>

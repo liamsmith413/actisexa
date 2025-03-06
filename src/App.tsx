@@ -39,7 +39,7 @@ const App = () => (
             <Route path="/Recharge" element={<RechargePage />} />
             <Route path="/Withdrawals" element={<WithdrawalForm />} />
             <Route path="/History" element={<TransactionHistory />} />
-            <Route path="/Exchange" element={<CryptoExchange />} />
+            <Route path="/Exchanges" element={<CryptoExchange />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

@@ -88,7 +88,7 @@ const CryptoExchange = ({ className }: CryptoExchangeProps) => {
     return (
         <div className="min-h-screen bg-background text-foreground">
             <NavBar />
-            <div className={cn("max-w-md mx-auto p-6 bg-white rounded-lg shadow-sm", className)}>
+            <div className={cn("max-w-md mx-auto p-6 bg-white rounded-lg shadow-sm px-4", className)}>
                 <h2 className="text-xl font-semibold mb-4">Send</h2>
 
                 {/* From Currency Section */}
