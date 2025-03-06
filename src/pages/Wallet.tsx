@@ -1,12 +1,9 @@
-
-import React from 'react';
 import { motion } from 'framer-motion';
 import NavBar from '../components/NavBar';
 import BottomNavigation from '../components/BottomNavigation';
 import { Button } from '@/components/ui/button';
-
+import { Link } from 'react-router-dom';
 const Wallet = () => {
-  // Mock crypto assets data
   const cryptoAssets = [
     { id: 'usdt', name: 'USDT', symbol: '₮', balance: '0', change: '+$0' },
     { id: 'btc', name: 'BTC', symbol: '₿', balance: '0', change: '+$0' },
@@ -104,13 +101,13 @@ const Wallet = () => {
                   <circle cx="12" cy="12" r="10" />
                   <path d="M12 8v8M8 12h8" />
                 </svg>
-                <span className="text-xs">Recharge</span>
+                <Link to="/Recharge" className="text-xs">Recharge</Link>
               </Button>
               <Button className="bg-white/10 hover:bg-white/20 text-white rounded-lg flex flex-col items-center py-3 h-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                   <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H7" />
                 </svg>
-                <span className="text-xs">Withdrawals</span>
+                <Link to="/Withdrawals" className="text-xs">Withdrawals</Link>
               </Button>
               <Button className="bg-white/10 hover:bg-white/20 text-white rounded-lg flex flex-col items-center py-3 h-auto">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-6 w-6 mb-1" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -119,7 +116,7 @@ const Wallet = () => {
                   <path d="M6 9v12M18 6V3" />
                   <path d="m9 6 6 6M6 9l12-3" />
                 </svg>
-                <span className="text-xs">Exchange</span>
+                <Link to="/Exchange" className="text-xs">Exchange</Link>
               </Button>
             </div>
           </motion.div>

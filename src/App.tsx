@@ -12,9 +12,12 @@ import Marketplace from "./pages/Marketplace";
 import Exchange from "./pages/Exchange";
 import Wallet from "./pages/Wallet";
 import Account from "./pages/Account";
-
+import RechargePage from "./pages/Recharge";
+import WithdrawalForm from "./pages/WithdrawalForm";
+import TransactionHistory from "./pages/HistoryPage";
 // Initialize framer-motion
 import { LazyMotion, domAnimation } from "framer-motion";
+import CryptoExchange from "./pages/CtyproExchange";
 
 const queryClient = new QueryClient();
 
@@ -33,6 +36,10 @@ const App = () => (
             <Route path="/exchange" element={<Exchange />} />
             <Route path="/wallet" element={<Wallet />} />
             <Route path="/account" element={<Account />} />
+            <Route path="/Recharge" element={<RechargePage />} />
+            <Route path="/Withdrawals" element={<WithdrawalForm />} />
+            <Route path="/History" element={<TransactionHistory />} />
+            <Route path="/Exchange" element={<CryptoExchange />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </BrowserRouter>

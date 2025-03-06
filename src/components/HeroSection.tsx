@@ -18,7 +18,6 @@ const HeroSection = () => {
     "/uploads/1.jpg",
     "/uploads/2.jpg",
     "/uploads/3.jpg",
-    "/uploads/4.jpg",
   ];
 
 
@@ -38,12 +37,12 @@ const HeroSection = () => {
           <img key={index} src={img} alt={`Slide ${index + 1}`} className="w-full rounded-md flex-shrink-0" />
         ))}
       </motion.div>
-      <button onClick={prevSlide} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 p-2 rounded-full">
+      {/* <button onClick={prevSlide} className="absolute left-2 top-1/2 transform -translate-y-1/2 bg-black/50 p-2 rounded-full">
         <ChevronLeft className="text-white" />
       </button>
       <button onClick={nextSlide} className="absolute right-2 top-1/2 transform -translate-y-1/2 bg-black/50 p-2 rounded-full">
         <ChevronRight className="text-white" />
-      </button>
+      </button> */}
     </div>
   </div>
   );

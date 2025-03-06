@@ -73,8 +73,8 @@ export default {
 					'secondary': '#7e69ab',
 					'purple': '#9b87f5',
 					'dark': '#1A1F2C',
-					'positive': '#34d399',
-					'negative': '#ef4444',
+					'positive': '#ffffff',
+					'negative': '#ffffff',
 					'card': 'rgba(30, 41, 59, 0.8)',
 					'card-hover': 'rgba(30, 41, 59, 0.9)',
 				}

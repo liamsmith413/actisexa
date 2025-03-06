@@ -7,8 +7,8 @@
     --background: 225 30% 95%;
     --foreground: 210 85% 4%;
 
-    --card: 225 15% 85%;
-    --card-foreground: 210 60% 98%;
+    --card: 225 30% 98%;
+    --card-foreground: 225 30% 98%;
 
     --popover: 225 25% 15%;
     --popover-foreground: 210 40% 98%;
@@ -19,7 +19,7 @@
     --secondary: 260 34% 54%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 225 38% 86%;
+    --muted: 0 0% 95%;
     --muted-foreground: 215 11% 7%;
 
     --accent: 260 34% 54%;
@@ -125,7 +125,11 @@
 }
 
 .coin-row {
-  @apply transition-all duration-300 hover:bg-crypto-card-hover border-border;
+  @apply transition-all duration-300 hover:bg-crypto-card border-border;
+}
+
+.coin-row:hover {
+  background-color: #ffffffb0
 }
 
 .menu-item {
@@ -143,10 +147,16 @@
 }
 
 .positive {
+  background-color: hsl(158, 64%, 52%);
+  border-radius: 5px;
+  opacity: 0.7;
   @apply text-crypto-positive;
 }
 
 .negative {
+  background-color: hsl(0, 94%, 49%);
+  border-radius: 5px;
+  opacity: 0.7;
   @apply text-crypto-negative;
 }
 

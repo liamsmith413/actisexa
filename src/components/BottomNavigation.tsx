@@ -15,7 +15,7 @@ const BottomNavigation = () => {
   ];
 
   return (
-    <div className="fixed bottom-0 left-0 right-0 z-40 bg-card/80 backdrop-blur-lg border-t border-border md:hidden">
+    <div className="fixed bottom-0 left-0 right-0 z-40 bg-card/40 backdrop-blur-lg border-t border-border md:hidden">
       <div className="flex justify-around">
         {menuItems.map((item) => {
           const isActive = location.pathname === item.path;
@@ -25,7 +25,7 @@ const BottomNavigation = () => {
             <Link
               key={item.path}
               to={item.path}
-              className={`flex flex-col items-center py-3 px-4 ${
+              className={`flex flex-col items-center py-3 px-2 ${
                 isActive ? 'text-crypto-accent' : 'text-muted-foreground'
               }`}
             >
